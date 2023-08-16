@@ -1,11 +1,11 @@
 body {
     font-family: arial, sans-serif;
-    background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    background: linear-gradient(to top, #fbfafc 0%, hsl(304, 74%, 89%) 1%, #f6d3ef 100%);
   }
   
   li {
     list-style: none;
-    color: rgb(135, 135, 135);
+    color: rgb(160, 8, 207);
     margin: 0;
     padding: 0;
   
@@ -24,23 +24,23 @@ body {
   }
   a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(89, 26, 100);
   }
   a:hover {
     text-decoration: underline;
   }
   #search-btn {
-    background-color: blueviolet;
-    border: 1px #ede4ff;
+    background-color: #8f3ecc;
+    border: 1px #fefdff;
   }
   #search-btn:hover {
     transition: ease-out 5ms;
-    background-color: white;
-    color: blueviolet;
-    box-shadow: 3px 3px 3px #a084e8;
+    background-color: rgb(253, 245, 245);
+    color: rgb(167, 6, 172);
+    box-shadow: 3px 3px 3px #d24ad0;
   }
   .weather-temperature .active {
-    color: black;
+    color: rgb(228, 13, 13);
     cursor: default;
   }
   .weather-temperature .active:hover {
@@ -51,9 +51,9 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #dadde1;
+    border: 1px solid #b605d9;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   .weather-app-wrapper {
     max-width: 600px;
@@ -61,7 +61,7 @@ body {
     padding: 5px;
   }
   .container h1 {
-    color: #a076f9;
+    color: #582395;
     font-family: arial, sans-serif;
     font-size: 24px;
     font-weight: 100;
@@ -71,7 +71,7 @@ body {
     margin-bottom: 0;
   }
   #description {
-    color: #9681eb;
+    color: #7424be;
   }
   .overview {
     margin-bottom: 20px;
@@ -82,7 +82,7 @@ body {
     width: 64px;
   }
   .weather-temperature strong {
-    color: #a076f9;
+    color: #5b20da;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -94,7 +94,7 @@ body {
   .weather-forecast {
     margin-top: 20px;
     text-align: center;
-    color: #000;
+    color: #8211b7;
   }
   .weather-forecast-date {
     font-size: 14px;
@@ -107,6 +107,6 @@ body {
     opacity: 0.6;
   }
   .weather-forecast-temperature-max {
-    color: blueviolet;
+    color: rgb(159, 22, 214);
     font-weight: bold;
   }
